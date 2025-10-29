@@ -106,7 +106,7 @@ const Register = () => {
       </div>
       <div className='advice-box'>
             <h1>To register<br />as an <span style={{color:'white'}}>admin</span><br />just use the<br />  following URL<br />
-            "<span style={{color:'white'}}>http://localhost:3000/register-admin</span>"</h1>
+            "<span style={{color:'white'}}>https://srivikas-mern-rbac.netlify.app/register-admin</span>"</h1>
         </div>
     </div>
   );
