@@ -1,7 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import API from '../utils/api';
-import { AuthContext } from '../context/AuthContext';
+// import { AuthContext } from '../context/AuthContext';
 import './Register.css';
 
 const AdminRegister = () => {
@@ -14,7 +14,7 @@ const AdminRegister = () => {
   });
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const { setUser } = useContext(AuthContext);
+  // const { setUser } = useContext(AuthContext);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
